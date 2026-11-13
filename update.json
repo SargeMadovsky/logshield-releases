@@ -1,9 +1,9 @@
 {
-    "version": "1.2.3",
-    "download_url": "https://raw.githubusercontent.com/SargeMadovsky/logshield-releases/main/releases/logshield-1.2.3.zip",
+    "version": "1.2.4",
+    "download_url": "https://raw.githubusercontent.com/SargeMadovsky/logshield-releases/main/releases/logshield-1.2.4.zip",
     "requires": "6.0",
     "requires_php": "7.4",
     "tested": "",
-    "released": "2026-11-13 16:21:41 UTC",
-    "changelog": "- Проверка обновлений больше не обращается к GitHub при открытии страниц админки, только в фоне. Из-за этого страница «Обновления» могла обрываться с ошибкой соединения или базы данных\n- Внизу настроек видно, когда и как прошла последняя проверка обновлений"
+    "released": "2026-11-13 16:40:49 UTC",
+    "changelog": "- Графики: подсказка значения при наведении, касании и с клавиатуры (стрелки, Home/End, Escape)\n- Над графиками отметки сканирований, найденных атакующих, ошибок сканирования и блокировок\n- В таблице данных графика колонка «События»"
 }
