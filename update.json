@@ -1,9 +1,9 @@
 {
-    "version": "1.2.0",
-    "download_url": "https://raw.githubusercontent.com/SargeMadovsky/logshield-releases/main/releases/logshield-1.2.0.zip",
+    "version": "1.2.1",
+    "download_url": "https://raw.githubusercontent.com/SargeMadovsky/logshield-releases/main/releases/logshield-1.2.1.zip",
     "requires": "6.0",
     "requires_php": "7.4",
     "tested": "",
-    "released": "2026-11-13 15:30:51 UTC",
-    "changelog": "- Адрес для проверки доступности: внешний пинг открывает его вместо главной, LogShield такие запросы не учитывает\n- Ответ «logshield-ok» только при полностью загруженном WordPress и работающей базе данных"
+    "released": "2026-11-13 16:07:07 UTC",
+    "changelog": "- Исправлен список изменений в окне «Подробнее»: строки с русскими буквами больше не рвутся\n- Новая версия замечается быстрее (кэш 1 час вместо 6)"
 }
