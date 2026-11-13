@@ -1,9 +1,9 @@
 {
-    "version": "1.1.0",
-    "download_url": "https://raw.githubusercontent.com/SargeMadovsky/logshield-releases/main/releases/logshield-1.1.0.zip",
+    "version": "1.1.1",
+    "download_url": "https://raw.githubusercontent.com/SargeMadovsky/logshield-releases/main/releases/logshield-1.1.1.zip",
     "requires": "6.0",
     "requires_php": "7.4",
     "tested": "",
-    "released": "2026-11-13 15:16:36 UTC",
-    "changelog": "- Автообновление из GitHub: обновления видны в списке плагинов, можно включить автообновление\n- Правило «перебор пользователей»: ?author=N и REST /wp/v2/users\n- Telegram: повтор отправки при сбое сети\n- Страна, сеть и метки Tor/VPN/дата-центр у настойчивых адресов (только для информации)"
+    "released": "2026-11-13 15:26:30 UTC",
+    "changelog": "- Ручной бан пишется в .htaccess корня сайта (WordPress в подпapке)\n- Бан уже известного адреса догоняет неудачную запись\n- После записи файл проверяется; при ошибке показывается причина"
 }
