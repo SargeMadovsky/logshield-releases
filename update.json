@@ -1,9 +1,9 @@
 {
-    "version": "1.1.1",
-    "download_url": "https://raw.githubusercontent.com/SargeMadovsky/logshield-releases/main/releases/logshield-1.1.1.zip",
+    "version": "1.2.0",
+    "download_url": "https://raw.githubusercontent.com/SargeMadovsky/logshield-releases/main/releases/logshield-1.2.0.zip",
     "requires": "6.0",
     "requires_php": "7.4",
     "tested": "",
-    "released": "2026-11-13 15:26:30 UTC",
-    "changelog": "- Ручной бан пишется в .htaccess корня сайта (WordPress в подпapке)\n- Бан уже известного адреса догоняет неудачную запись\n- После записи файл проверяется; при ошибке показывается причина"
+    "released": "2026-11-13 15:30:51 UTC",
+    "changelog": "- Адрес для проверки доступности: внешний пинг открывает его вместо главной, LogShield такие запросы не учитывает\n- Ответ «logshield-ok» только при полностью загруженном WordPress и работающей базе данных"
 }
