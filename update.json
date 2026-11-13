@@ -1,9 +1,9 @@
 {
-    "version": "1.2.1",
-    "download_url": "https://raw.githubusercontent.com/SargeMadovsky/logshield-releases/main/releases/logshield-1.2.1.zip",
+    "version": "1.2.3",
+    "download_url": "https://raw.githubusercontent.com/SargeMadovsky/logshield-releases/main/releases/logshield-1.2.3.zip",
     "requires": "6.0",
     "requires_php": "7.4",
     "tested": "",
-    "released": "2026-11-13 16:07:07 UTC",
-    "changelog": "- Исправлен список изменений в окне «Подробнее»: строки с русскими буквами больше не рвутся\n- Новая версия замечается быстрее (кэш 1 час вместо 6)"
+    "released": "2026-11-13 16:21:41 UTC",
+    "changelog": "- Проверка обновлений больше не обращается к GitHub при открытии страниц админки, только в фоне. Из-за этого страница «Обновления» могла обрываться с ошибкой соединения или базы данных\n- Внизу настроек видно, когда и как прошла последняя проверка обновлений"
 }
